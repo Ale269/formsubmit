@@ -22,22 +22,22 @@ body a {
 }
 
 body h1 {
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 700;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   font-family: 'Roboto Slab', serif;
 }
 
 body h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 1em;
   font-family: 'Roboto Slab', serif;
 }
 
 body h3 {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 450;
   color: #4f4f4f;
   margin-bottom: 1em;
@@ -45,14 +45,14 @@ body h3 {
 
 body h4 {
   font-weight: 450;
-  font-size: 12px;
+  font-size: 14px;
   color: #4f4f4f;
   text-align: center;
 }
 
 body p {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 300;
   color: #4f4f4f;
   margin-bottom: 2em;
@@ -179,6 +179,9 @@ body header nav .menu-btn .menu-btn-lines::after {
 }
 
 body header nav .menu-items.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  position: fixed;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,17 +189,25 @@ body header nav .menu-items.open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  position: fixed;
   z-index: 98;
 }
 
-body header nav .menu-items.open li a.menu-item {
+body header nav .menu-items {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .menu-items li a.menu-item {
   padding: 0.5em 2em;
 }
 
-body header nav .menu-items.open li a.menu-item:hover {
+body header nav .menu-items li a.menu-item:hover {
   color: #C1C1C1;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -560,6 +571,9 @@ body .fourth-section .illustration-last {
   body header nav .menu-items {
     -webkit-transform: translateX(0);
             transform: translateX(0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
