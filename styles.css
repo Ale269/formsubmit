@@ -113,24 +113,18 @@ body header nav .menu-items {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  display: none;
   top: 0;
   left: 0;
   right: 0;
   height: 100vh;
   background-color: #fff;
-  -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
   -webkit-transition: -webkit-transform 0.7s ease-in-out;
   transition: -webkit-transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
-  z-index: 98;
-}
-
-body header nav .menu-items.open {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  position: fixed;
   z-index: 98;
 }
 
@@ -184,7 +178,7 @@ body header nav .menu-btn .menu-btn-lines::after {
           transform: translateY(0.5rem);
 }
 
-body header nav .menu-items {
+body header nav .menu-items.open {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,13 +186,17 @@ body header nav .menu-items {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  position: fixed;
+  z-index: 98;
 }
 
-body header nav .menu-items li a.menu-item {
+body header nav .menu-items.open li a.menu-item {
   padding: 0.5em 2em;
 }
 
-body header nav .menu-items li a.menu-item:hover {
+body header nav .menu-items.open li a.menu-item:hover {
   color: #C1C1C1;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
