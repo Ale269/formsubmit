@@ -451,6 +451,10 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
   margin-bottom: 3.5em;
 }
 
+body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid p {
+  font-size: 12px;
+}
+
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid .blue-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -478,6 +482,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid .blue-text .blue {
   font-weight: 700;
   color: #0466C8;
+  text-align: center;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid .black-text {
@@ -550,6 +555,10 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
   margin-bottom: 2em;
 }
 
+body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 p {
+  font-size: 12px;
+}
+
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 .blue-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,6 +586,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 .blue-text .blue {
   font-weight: 700;
   color: #0466C8;
+  text-align: center;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 .black-text {

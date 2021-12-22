@@ -374,6 +374,10 @@ body {
                     grid-column-gap: 4%;
                     margin-bottom: 3.5em;
 
+                    p {
+                        font-size: 12px;
+                    }
+
                     .blue-text {
                         display: flex;
                         flex-direction: column;
@@ -390,6 +394,7 @@ body {
                         .blue {
                             font-weight: 700;
                             color:#0466C8;
+                            text-align: center;
                         }
                     }
 
@@ -441,6 +446,10 @@ body {
                     grid-column-gap: 4%;
                     margin-bottom: 2em;
 
+                    p {
+                        font-size: 12px;
+                    }
+
                     .blue-text {
                         display: flex;
                         flex-direction: column;
@@ -457,6 +466,7 @@ body {
                         .blue {
                             font-weight: 700;
                             color:#0466C8;
+                            text-align: center;
                         }
                     }
 
