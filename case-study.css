@@ -436,6 +436,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
   text-align: left;
   color: #000;
   margin-bottom: 1.5em;
+  margin-top: 3.5em;
   line-height: 18px;
 }
 
@@ -448,7 +449,6 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
       grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
   grid-column-gap: 4%;
-  margin-bottom: 3.5em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid p {

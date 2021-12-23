@@ -95,6 +95,13 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1em;
+  display: none;
+}
+
+.image .contact-page-image-2 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 936px) {
@@ -112,12 +119,21 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contact-me-section .conteiner-contact-me-big .form-conteiner {
     width: 45%;
   }
   .contact-me-section .conteiner-contact-me-big .image {
     width: 45%;
+  }
+  .contact-me-section .conteiner-contact-me-big .image .contact-page-image {
+    display: block;
+  }
+  .contact-me-section .conteiner-contact-me-big .image .contact-page-image-2 {
+    display: none;
   }
 }
 
