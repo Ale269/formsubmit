@@ -68,12 +68,20 @@
   background-color: #0466C8;
   border-radius: 35px;
   cursor: pointer;
-  margin: 1em auto;
+  margin: 1em auto 2em auto;
+}
+
+.form-conteiner form a {
+  color: #0466C8;
 }
 
 .title {
-  margin-bottom: 3em;
   text-align: center;
+}
+
+.contact-me-h3 {
+  text-align: center;
+  margin-bottom: 3em;
 }
 
 .image {
