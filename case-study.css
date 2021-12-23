@@ -456,7 +456,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
       grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
   grid-column-gap: 4%;
-  margin-bottom: 5em;
+  margin-bottom: 5.5em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid p {
@@ -560,7 +560,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
       grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
   grid-column-gap: 4%;
-  margin-bottom: 5em;
+  margin-bottom: 5.5em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 p {
@@ -1382,14 +1382,14 @@ body .last-section-project .other-projects .project-container .call-to-action-pr
     padding: 0 7em 0 7em;
   }
   body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid {
-    margin-bottom: 5em;
+    margin-bottom: 5.5em;
   }
   body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid p {
     font-size: 14px;
     line-height: 18px;
   }
   body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 {
-    margin-bottom: 5em;
+    margin-bottom: 5.5em;
   }
   body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 p {
     font-size: 14px;
