@@ -430,6 +430,8 @@ body .Thinking-about-the-users .user-journey .user-journey-icon p {
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-conclusion {
   margin-left: 2em;
+  font-weight: 500;
+  color: #000;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .example-user-journey {
