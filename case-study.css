@@ -456,7 +456,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
       grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
   grid-column-gap: 4%;
-  padding-bottom: 3.5em;
+  margin-bottom: 5em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid p {
@@ -560,7 +560,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
       grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
   grid-column-gap: 4%;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-grid-2 p {
