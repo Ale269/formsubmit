@@ -1154,6 +1154,15 @@ body .last-section-project .other-projects .project-container .call-to-action-pr
   body .first-try-me .try-me-container h3 {
     text-align: left;
   }
+  body .first-try-me .try-me-container .try-me-call-to-action-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
   body .first-try-me .try-me-container .try-me-call-to-action {
     width: 180px;
     font-size: 16px;
