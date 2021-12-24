@@ -46,11 +46,13 @@
                       <input type="text" name="_honey" style="display: none;">
                       <input type="hidden" name="_captcha" value="false">
                       <input type="hidden" name="_next" value="https://ale269.github.io/website/">
-                      
-                      <input type="text" id="name" name="name" placeholder="Your name" required>
-                      <input type="email" id="email" name="email" placeholder="Your email" required>
-                      <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                      <textarea id="message" rows="4" name="comment, question" placeholder="How can I help you?"></textarea>
+
+                      <p>Fields marked with an asterisk are required</p>
+                      <input type="text" id="name" name="name" placeholder="Your name*" required>
+                      <input type="email" id="email" name="email" placeholder="Your email*" required>
+                      <input type="text" id="phoneNumber" name="phone" placeholder="Your phone number">
+                      <input type="text" id="subject" name="subject" placeholder="Subject*" required>
+                      <textarea id="message" rows="4" name="comment, question" placeholder="How can I help you?" required></textarea>
                       <button type="submit">Send</button> 
                       <h4>Don't like forms? <a href="mailto:alessio26manfredini@gmail.com">Send me an email</a></h4>
                     </form>

@@ -1,6 +1,6 @@
 .contact-me-section {
   padding: 0 2em;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -32,6 +32,10 @@
   border-radius: 10px;
   -webkit-box-shadow: 0 10px 14px #E3E3E3;
           box-shadow: 0 10px 14px #E3E3E3;
+}
+
+.form-conteiner form p {
+  margin: 1em;
 }
 
 .form-conteiner form input {
@@ -96,6 +100,7 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  margin: 0 auto 4em auto;
 }
 
 .image .contact-page-image {
