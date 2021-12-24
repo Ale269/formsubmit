@@ -139,6 +139,10 @@
   .contact-me-section .conteiner-contact-me-big .form-conteiner {
     width: 45%;
   }
+  .contact-me-section .conteiner-contact-me-big .form-conteiner button {
+    width: 180px;
+    font-size: 16px;
+  }
   .contact-me-section .conteiner-contact-me-big .image {
     width: 45%;
   }
