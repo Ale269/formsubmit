@@ -1,6 +1,7 @@
 const menuBtn = document.querySelector(".menu-btn");
 const menuItems = document.querySelector(".menu-items");
 const faders = document.querySelectorAll(".fade-in");
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle("open");
@@ -8,7 +9,9 @@ menuBtn.addEventListener('click', () => {
     menuItems.classList.toggle("open");
 });
 
-
+btnScrollToTop.addEventListener("click", function() {
+    window.scrollTo(0, 0);
+});
 
 const appearOptions = {
     threshold: 0.2,

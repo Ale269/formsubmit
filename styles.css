@@ -229,6 +229,32 @@ body header nav .menu-btn.open .menu-btn-lines::after {
           transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
 }
 
+body #btnScrollToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.4;
+  background: #0466C8;
+  border: #0466C8;
+  font-size: 18px;
+  z-index: 10;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+body #btnScrollToTop:hover {
+  opacity: 1;
+  background: #042365;
+}
+
 body .fade-in {
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in;
@@ -658,7 +684,14 @@ body .fourth-section .illustration-last {
     font-size: 16px;
   }
   body .first-section .illustration-first {
+    position: relative;
     width: 50%;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  body .first-section .illustration-first:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
   body .background-section-first {
     padding: 9em 0 9em 0;
@@ -693,11 +726,21 @@ body .fourth-section .illustration-last {
     height: 200px;
     position: relative;
     bottom: 60px;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  body .second-section .illustration-second .card-one:hover {
+    bottom: 70px;
   }
   body .second-section .illustration-second .card-two {
     height: 200px;
     position: relative;
     top: 20px;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  body .second-section .illustration-second .card-two:hover {
+    top: 30px;
   }
   body .second-section .illustration-second .first-icon {
     margin-bottom: 2em;
@@ -738,7 +781,7 @@ body .fourth-section .illustration-last {
     margin-bottom: 0.5em;
   }
   body .third-section .home-page-third .see-case-study {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0;
   }
   body .third-section .study-card-container {
@@ -759,6 +802,8 @@ body .fourth-section .illustration-last {
             justify-content: space-between;
     margin: 0em 0.5em;
     padding: 2em 0.8em;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
   }
   body .third-section .study-card .study-text {
     display: -webkit-box;

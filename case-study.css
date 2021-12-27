@@ -848,7 +848,7 @@ body .Lets-start-creating .mockups .mockups-icon .mockup-call-to-action-containe
 
 body .Lets-start-creating .mockups .mockups-icon .mockup-call-to-action-container .try-me-website-mockup {
   display: inline-block;
-  width: 140px;
+  width: 120px;
   font-size: 14px;
   text-align: center;
   color: #0466C8;
@@ -870,7 +870,7 @@ body .Lets-start-creating .mockups .mockups-icon .mockup-call-to-action-containe
 
 body .Lets-start-creating .mockups .mockups-icon .mockup-call-to-action-container .try-me-call-to-action-mockup {
   display: inline-block;
-  width: 140px;
+  width: 120px;
   font-size: 14px;
   text-align: center;
   color: #0466C8;
@@ -1621,7 +1621,8 @@ body .last-section-project .other-projects .project-container .call-to-action-pr
   }
   body .last-section-project .other-projects .project-container .call-to-action-project .project-1-image {
     display: block;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
   }
   body .last-section-project .other-projects .project-container .call-to-action-project h2 {
     margin-bottom: 0;
@@ -1663,7 +1664,8 @@ body .last-section-project .other-projects .project-container .call-to-action-pr
   }
   body .last-section-project .other-projects .project-container .call-to-action-project .project-2-image {
     display: block;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 

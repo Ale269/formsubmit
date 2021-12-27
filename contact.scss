@@ -85,7 +85,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    margin: 0 auto 4em auto; 
+    margin: 0 auto 0 auto; 
 
     .contact-page-image {
         width: 100%;
@@ -123,6 +123,7 @@
 
             .image {
                 width: 45%;
+                transition: ease-in-out 0.3s;
 
                 .contact-page-image {
                     display: block;
@@ -131,6 +132,10 @@
                 .contact-page-image-2 {
                     display: none;
                 }
+            }
+
+            .image:hover {
+                transform: translateY(-10px); 
             }
         }
     }
