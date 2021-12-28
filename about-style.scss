@@ -1,0 +1,197 @@
+.recap-section {
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+
+    .title {
+        margin-bottom: 1em;
+    }
+
+    p {
+        margin-bottom: 0.5em;
+    }
+
+    img {
+        display: block;
+        width: 80%;
+        margin-bottom: 2em;
+    }
+}
+
+.my-journey-section {
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0 auto 3em auto;
+
+    .title {
+        margin-bottom: 1em;
+
+        h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    .my-journey-container-type1 {
+
+        p {
+            margin-bottom: 0.5em;
+        }
+
+        p:last-of-type {
+            margin-bottom: 2em;
+        }
+    
+    
+        .image-about-1 {
+            display: block;
+            width: 90%;
+            margin: 0 auto 6em auto;
+        }
+
+        .image-about-2 {
+            display: block;
+            width: 90%;
+            margin: 0 auto 6em auto;
+        }
+
+        .image-about-3 {
+            display: block;
+            width: 100%;
+            margin-bottom: 6em;
+        }
+    }
+
+    .my-journey-container-type2 {
+
+        p {
+            margin-bottom: 0.5em;
+        }
+
+        p:last-of-type {
+            margin-bottom: 2em;
+        }
+    
+    
+        .image-about-1 {
+            display: block;
+            width: 90%;
+            margin: 0 auto 6em auto;
+        }
+
+        .image-about-2 {
+            display: block;
+            width: 90%;
+            margin: 0 auto 6em auto;
+        }
+
+        .image-about-3 {
+            display: block;
+            width: 100%;
+            margin-bottom: 6em;
+        }
+    }
+}
+
+@media (min-width: 936px) {
+    .recap-section {
+        padding: 0;
+        flex-direction: row-reverse;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5em;
+        margin-bottom: 9em;
+
+        .first-recap-presentation {
+            width: 50%;
+        }
+
+        img {
+            width: 40%;
+        }
+    }
+
+    .my-journey-section {
+        padding: 0;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+
+        .my-journey-container-type1 {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 0 auto 18em auto;
+            justify-content: space-between;
+            align-items: center;
+
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+
+            .image-about-1 {
+                width: 45%;
+                margin: 0;
+                position: relative;
+                transition: ease-in-out 0.3s;
+            }
+
+            .image-about-1:hover {
+                transform: translateY(-10px); 
+            } 
+
+            .text-container {
+                width: 45%;
+            }
+
+            .image-about-3 {
+                width: 48%;
+                margin: 0;
+                position: relative;
+                transition: ease-in-out 0.3s;
+            }
+
+            .image-about-3:hover {
+                transform: translateY(-10px); 
+            }
+        }
+
+        .my-journey-container-type2 {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto 18em auto;
+            justify-content: space-between;
+            align-items: center;
+
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+
+            .image-about-2 {
+                width: 45%;
+                margin: 0;
+                position: relative;
+                transition: ease-in-out 0.3s;
+            }
+
+            .image-about-2:hover {
+                transform: translateY(-10px); 
+            }
+
+            .text-container {
+                width: 45%;
+            }
+
+        }
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 936px) {
+    .recap-section {
+        padding: 0 6em;
+    }
+}

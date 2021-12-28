@@ -1,0 +1,221 @@
+.recap-section {
+  padding: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3em;
+}
+
+.recap-section .title {
+  margin-bottom: 1em;
+}
+
+.recap-section p {
+  margin-bottom: 0.5em;
+}
+
+.recap-section img {
+  display: block;
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.my-journey-section {
+  padding: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0 auto 3em auto;
+}
+
+.my-journey-section .title {
+  margin-bottom: 1em;
+}
+
+.my-journey-section .title h2 {
+  margin-bottom: 0;
+}
+
+.my-journey-section .my-journey-container-type1 p {
+  margin-bottom: 0.5em;
+}
+
+.my-journey-section .my-journey-container-type1 p:last-of-type {
+  margin-bottom: 2em;
+}
+
+.my-journey-section .my-journey-container-type1 .image-about-1 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 6em auto;
+}
+
+.my-journey-section .my-journey-container-type1 .image-about-2 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 6em auto;
+}
+
+.my-journey-section .my-journey-container-type1 .image-about-3 {
+  display: block;
+  width: 100%;
+  margin-bottom: 6em;
+}
+
+.my-journey-section .my-journey-container-type2 p {
+  margin-bottom: 0.5em;
+}
+
+.my-journey-section .my-journey-container-type2 p:last-of-type {
+  margin-bottom: 2em;
+}
+
+.my-journey-section .my-journey-container-type2 .image-about-1 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 6em auto;
+}
+
+.my-journey-section .my-journey-container-type2 .image-about-2 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 6em auto;
+}
+
+.my-journey-section .my-journey-container-type2 .image-about-3 {
+  display: block;
+  width: 100%;
+  margin-bottom: 6em;
+}
+
+@media (min-width: 936px) {
+  .recap-section {
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    max-width: 900px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5em;
+    margin-bottom: 9em;
+  }
+  .recap-section .first-recap-presentation {
+    width: 50%;
+  }
+  .recap-section img {
+    width: 40%;
+  }
+  .my-journey-section {
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-journey-section .my-journey-container-type1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin: 0 auto 18em auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-journey-section .my-journey-container-type1 p:last-of-type {
+    margin-bottom: 0;
+  }
+  .my-journey-section .my-journey-container-type1 .image-about-1 {
+    width: 45%;
+    margin: 0;
+    position: relative;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .my-journey-section .my-journey-container-type1 .image-about-1:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  .my-journey-section .my-journey-container-type1 .text-container {
+    width: 45%;
+  }
+  .my-journey-section .my-journey-container-type1 .image-about-3 {
+    width: 48%;
+    margin: 0;
+    position: relative;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .my-journey-section .my-journey-container-type1 .image-about-3:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  .my-journey-section .my-journey-container-type2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto 18em auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-journey-section .my-journey-container-type2 p:last-of-type {
+    margin-bottom: 0;
+  }
+  .my-journey-section .my-journey-container-type2 .image-about-2 {
+    width: 45%;
+    margin: 0;
+    position: relative;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .my-journey-section .my-journey-container-type2 .image-about-2:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  .my-journey-section .my-journey-container-type2 .text-container {
+    width: 45%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 936px) {
+  .recap-section {
+    padding: 0 6em;
+  }
+}
+/*# sourceMappingURL=about-style.css.map */

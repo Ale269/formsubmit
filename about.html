@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>About me | Alessio Manfredini</title>
+    <link rel='stylesheet' href='styles.css' type="text/css" />
+    <link rel='stylesheet' href='about-style.css' type="text/css" />
+    <link rel='icon' href='images/favicon.png' type="images/svg"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/dec2131f73.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+
+    <header>
+        <nav>
+         <div class="logo"><a class="image-logo" href="index.html"><img src="images/favicon.svg" alt="logo" style="width:25px;height:25px;display:block;cursor:pointer;"/></a></div>
+         <div class="menu-btn">
+           <div class="menu-btn-lines"></div>
+         </div>
+         <ul class="menu-items">
+          <li><a class="menu-item" href="index.html">Home</a></li>
+          <li><a class="menu-item page-selected">About</a></li>
+          <li><a class="menu-item" href="Contact.html">Contact</a></li>
+        </ul>
+        </nav>
+     </header>
+
+     <button id="btnScrollToTop">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+
+     <div class="wrapper">
+         <section class="recap-section">
+             <img src="images/foto-of-me.png" alt="foto of me">
+            <div class="first-recap-presentation">
+                <div class="title">
+                    <h1>Hi, I'm Alessio</h1>
+                </div>
+                <p>During the last months I have dedicated my time to studing Ux design and graphics both digital and for print.</p>
+                <p>I learned to use some programs from the Adobe suite, as well as having designed with figma, moving then on to the study of the main languages for web development.</p>
+                <p>I am currently following the full stack developer course offered by start to impact.</p>
+            </div>
+         </section>
+
+         <div class="background-section-first">
+             <section class="my-journey-section">
+
+                 <div class="my-journey-container-type1">
+                    <div class="text-container">
+                        <div class="title">
+                            <h2>The beginning</h2>
+                        </div>
+                        <p>It all started a few years ago, when the pandemic hit our country.</p>
+                        <p>Unfortunately we were all quarantined for a fair period of time and boredom began to hunt us, in those static days spent at home I got closer than ever to the digital world.</p>
+                        <p>I discovered more and more about everything that was present in this space and, in a short time, I became passionate about it. </p>
+                    </div>
+                    <img class="image-about-1" src="images/new-journey.png" alt="new adventures">
+                 </div>
+
+                 <div class="my-journey-container-type2">
+                    <div class="text-container">
+                        <div class="title">
+                            <h2>Discovering UX design</h2>
+                        </div>
+                        <p>At this point, even if I didn't know it yet, I had already unwittingly made my decision. </p>
+                        <p>I was going to embark on a journey to learn as much as possible about these new professions that I had "really" discovered for the first time. </p>
+                        <p>While I was documenting myself on platforms such as Youtube, Coursera and Openclassroom, I came across a book called "The design of daily things" by Don Norman.</p>
+                        <p>Reading it I started to fall in love with the role of the UX designer, so I decided that this would be my first real step into the new world.</p>
+                        <p>I went looking for a way to learn more, found a professional course from Google and started my journey.</p>
+                    </div>
+                    <img class="image-about-2" src="images/UX-studing.png" alt="studing UX design">
+                 </div>
+
+                 <div class="my-journey-container-type1">
+                    <div class="text-container">
+                        <div class="title">
+                            <h2>Finding a mentor</h2>
+                        </div>
+                        <p>In the same period I managed to find a mentor who could accompany me during my adventure, thanks to her I learned very quickly notions of graphics and to use numerous programs that proved to be essencial in my path.</p>
+                        <p>Currently I am dedicating part of my time to learn Full stack developing to acquire new skills that will surely be useful to me also in relation to the world of UX design.</p>
+                    </div>
+                    <img class="image-about-3" src="images/mentoring.png" alt="mentoring">
+                </div>
+
+             </section>
+         </div>
+     </div>
+
+
+     <script src="main.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+     <script>
+        gsap.from('.wrapper', { opacity: 0, duration: 1, y: 50})
+      </script>
+
+     </body>
+
+</html>
