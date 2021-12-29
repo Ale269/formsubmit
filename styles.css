@@ -467,13 +467,13 @@ body .third-section .study-card h3 {
 }
 
 body .third-section .study-card p {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 body .third-section .study-card .case-study-image {
   display: block;
-  max-width: 80%;
-  margin-bottom: 2em;
+  max-width: 100%;
+  margin-bottom: 1em;
   max-height: 100%;
 }
 
