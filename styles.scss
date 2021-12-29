@@ -107,8 +107,12 @@ body {
             text-decoration: none;
             color: #4F4F4F;
             cursor: pointer;
-            font-size: 18px;
-            font-weight:300;
+            font-size: 14px;
+            font-weight:500;
+        }
+
+        .page-selected {
+            color: #0466C8; 
         }
 
         .menu-btn {
@@ -164,7 +168,7 @@ body {
                 }
                 
                 a.menu-item:hover {
-                    color:  #C1C1C1;
+                    color:  #0466C8;
                     transition: 0.5s ease-in-out;
                 }
             }
@@ -531,8 +535,13 @@ body {
                         margin-bottom: auto;
         
                         a {
-                            font-size: 16px;
+                            font-size: 14px;
+                            font-weight: 500;
                         }
+                    }
+
+                    .page-selected {
+                        color: #0466C8; 
                     }
                 }
         
@@ -765,7 +774,7 @@ body {
 
             .illustration-last {
                 display:block;
-                max-width:70%;
+                max-width:60%;
             }
         }
 

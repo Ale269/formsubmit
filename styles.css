@@ -136,8 +136,12 @@ body header nav a.menu-item {
   text-decoration: none;
   color: #4F4F4F;
   cursor: pointer;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+body header nav .page-selected {
+  color: #0466C8;
 }
 
 body header nav .menu-btn {
@@ -208,7 +212,7 @@ body header nav .menu-items li a.menu-item {
 }
 
 body header nav .menu-items li a.menu-item:hover {
-  color: #C1C1C1;
+  color: #0466C8;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
@@ -619,7 +623,11 @@ body .fourth-section .illustration-last {
     margin-bottom: auto;
   }
   body header nav .menu-items li a {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  body header nav .menu-items .page-selected {
+    color: #0466C8;
   }
   body header nav .menu-btn {
     position: relative;
@@ -853,7 +861,7 @@ body .fourth-section .illustration-last {
   }
   body .fourth-section .illustration-last {
     display: block;
-    max-width: 70%;
+    max-width: 60%;
   }
 }
 

@@ -99,6 +99,143 @@
   margin-bottom: 6em;
 }
 
+.my-journey-section .my-journey-container-type3 p {
+  margin-bottom: 0.5em;
+}
+
+.my-journey-section .my-journey-container-type3 p:last-of-type {
+  margin-bottom: 2em;
+}
+
+.my-journey-section .my-journey-container-type3 .image-about-1 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.my-journey-section .my-journey-container-type3 .image-about-2 {
+  display: block;
+  width: 90%;
+  margin: 0 auto 6em auto;
+}
+
+.my-journey-section .my-journey-container-type3 .image-about-3 {
+  display: block;
+  width: 100%;
+  margin-bottom: 6em;
+}
+
+.curiosity-section {
+  margin-top: 3em;
+  padding: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto 3em auto;
+}
+
+.curiosity-section .title {
+  text-align: center;
+}
+
+.curiosity-section .curiosity-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container .icon-curiosity {
+  margin-right: 1em;
+  color: #4f4f4f;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container .curiosity-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 14px #E3E3E3;
+          box-shadow: 0 10px 14px #E3E3E3;
+  border-radius: 10px;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container .curiosity-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #cdeefd;
+  -webkit-box-shadow: 0 10px 14px #E3E3E3;
+          box-shadow: 0 10px 14px #E3E3E3;
+  border-radius: 10px;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container .curiosity-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 14px #E3E3E3;
+          box-shadow: 0 10px 14px #E3E3E3;
+  border-radius: 10px;
+}
+
+.curiosity-section .curiosity-container .curiosity-sub-container .curiosity-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  background-color: #cdeefd;
+  -webkit-box-shadow: 0 10px 14px #E3E3E3;
+          box-shadow: 0 10px 14px #E3E3E3;
+  border-radius: 10px;
+}
+
 @media (min-width: 936px) {
   .recap-section {
     padding: 0;
@@ -167,17 +304,6 @@
   .my-journey-section .my-journey-container-type1 .text-container {
     width: 45%;
   }
-  .my-journey-section .my-journey-container-type1 .image-about-3 {
-    width: 48%;
-    margin: 0;
-    position: relative;
-    -webkit-transition: ease-in-out 0.3s;
-    transition: ease-in-out 0.3s;
-  }
-  .my-journey-section .my-journey-container-type1 .image-about-3:hover {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
-  }
   .my-journey-section .my-journey-container-type2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,10 +337,71 @@
   .my-journey-section .my-journey-container-type2 .text-container {
     width: 45%;
   }
+  .my-journey-section .my-journey-container-type3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin: 0 auto 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-journey-section .my-journey-container-type3 p:last-of-type {
+    margin-bottom: 0;
+  }
+  .my-journey-section .my-journey-container-type3 .text-container {
+    width: 45%;
+  }
+  .my-journey-section .my-journey-container-type3 .image-about-3 {
+    width: 48%;
+    margin: 0;
+    position: relative;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .my-journey-section .my-journey-container-type3 .image-about-3:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  .curiosity-section {
+    padding: 0;
+    max-width: 900px;
+    margin: 9em auto 9em auto;
+  }
+  .curiosity-section .curiosity-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .curiosity-section .curiosity-container .curiosity-sub-container {
+    width: 45%;
+  }
+  .curiosity-section .curiosity-container .curiosity-sub-container .curiosity-3 {
+    background-color: #cdeefd;
+  }
+  .curiosity-section .curiosity-container .curiosity-sub-container .curiosity-4 {
+    background-color: #fff;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 936px) {
   .recap-section {
+    padding: 0 6em;
+  }
+  .curiosity-section {
     padding: 0 6em;
   }
 }
