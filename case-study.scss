@@ -353,169 +353,45 @@ body {
             .user-journey-substrate {
 
                 .user-journey-conclusion {
-                    margin-left: 2em;
+                    text-align: center;
+                    margin: 0 2em;
                     font-weight: 500;
                     color: #000;
                 }
 
-                .example-user-journey {
-                    margin-left: 2em;
-                    text-align: left;
+                .example-user-journey {    
+                    text-align: center;
                     color: #000;
                     margin-bottom: 1.5em;
                 }
 
                 .user-journey-example-app {
-                    margin-left: 2em;
-                    text-align: left;
+                    text-align: center;
                     color: #000;
                     margin-bottom: 1.5em;
                     line-height: 18px;
                 }
 
-                .user-journey-grid {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
-                    grid-row-gap: 2%;
-                    grid-column-gap: 4%;
-                    margin-bottom: 5.5em;
-
-                    p {
-                        font-size: 12px;
-                    }
-
-                    .blue-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 2.5em;
-                        padding: 5%;
-
-                        .blue {
-                            font-weight: 700;
-                            color:#0466C8;
-                            text-align: center;
-                        }
-                    }
-
-                    .black-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 100%;
-                        padding: 5%;
-
-                        .black {
-                            font-weight: 700;
-                            color:#000;
-                            text-align: center;
-                        }
-                    }
-
-                    .p-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 100%;
-                        padding: 5%;
-
-                        p {
-                            text-align: center;
-                        }
-                    }
-
+                .first-user-journey-image {
+                    display: none;
                 }
 
-                .user-journey-grid-2 {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr;
-                    grid-row-gap: 2%;
-                    grid-column-gap: 4%;
-                    margin-bottom: 5.5em;
-
-                    p {
-                        font-size: 12px;
-                    }
-
-                    .blue-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 2.5em;
-                        padding: 5%;
-
-                        .blue {
-                            font-weight: 700;
-                            color:#0466C8;
-                            text-align: center;
-                        }
-                    }
-
-                    .black-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 100%;
-                        padding: 5%;
-
-                        .black {
-                            font-weight: 700;
-                            color:#000;
-                            text-align: center;
-                        }
-                    }
-
-                    .p-text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: #fff;
-                        border-radius: 6px;
-                        box-shadow: 0 10px 14px #E3E3E3;
-                        margin: 0 auto 0 auto;
-                        width: 100%;
-                        height: 100%;
-                        padding: 5%;
-
-                        p {
-                            text-align: center;
-                        }
-                    }
-
+                .mobile-user-journey-image {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 4em;
                 }
+
+                .second-user-journey-image {
+                    display: none;
+                }
+
+                .second-mobile-user-journey-image {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 4em;
+                }
+
             }
         }
 
@@ -1186,25 +1062,27 @@ body {
                 }
 
                 .user-journey-substrate {
-                    padding: 0 7em 0 7em;
 
-                    .user-journey-grid {
-                        margin-bottom: 5.5em;
-
-                        p {
-                            font-size: 14px;
-                            line-height: 18px;
-                        }
+                    .first-user-journey-image {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 12em;
+                    }
+    
+                    .mobile-user-journey-image {
+                        display: none;
                     }
 
-                    .user-journey-grid-2 {
-                        margin-bottom: 5.5em;
-
-                        p {
-                            font-size: 14px;
-                            line-height: 18px;
-                        }
+                    .second-user-journey-image {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 4em;
                     }
+    
+                    .second-mobile-user-journey-image {
+                        display: none;
+                    }
+
 
                     .user-journey-example-app {
                         line-height: 26px;

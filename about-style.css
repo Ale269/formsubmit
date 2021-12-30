@@ -10,7 +10,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .recap-section .title {
@@ -36,7 +36,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 0 auto 3em auto;
+  margin-bottom: 0 auto 4em auto;
 }
 
 .my-journey-section .title {
@@ -70,7 +70,7 @@
 .my-journey-section .my-journey-container-type1 .image-about-3 {
   display: block;
   width: 100%;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 .my-journey-section .my-journey-container-type2 p {
@@ -96,7 +96,7 @@
 .my-journey-section .my-journey-container-type2 .image-about-3 {
   display: block;
   width: 100%;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 .my-journey-section .my-journey-container-type3 p {
@@ -122,7 +122,7 @@
 .my-journey-section .my-journey-container-type3 .image-about-3 {
   display: block;
   width: 100%;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 .curiosity-section {
