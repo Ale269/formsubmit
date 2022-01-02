@@ -455,7 +455,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .first-user
 body .Thinking-about-the-users .user-journey .user-journey-substrate .mobile-user-journey-image {
   display: block;
   width: 90%;
-  margin-bottom: 4em;
+  margin: 0 auto 4em auto;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .second-user-journey-image {
@@ -465,7 +465,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .second-use
 body .Thinking-about-the-users .user-journey .user-journey-substrate .second-mobile-user-journey-image {
   display: block;
   width: 90%;
-  margin-bottom: 4em;
+  margin: 0 auto 4em auto;
 }
 
 body .Lets-start-creating {
