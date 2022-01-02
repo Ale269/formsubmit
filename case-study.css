@@ -438,13 +438,13 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journ
 body .Thinking-about-the-users .user-journey .user-journey-substrate .example-user-journey {
   text-align: center;
   color: #000;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .user-journey-example-app {
   text-align: center;
   color: #000;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   line-height: 18px;
 }
 
@@ -454,7 +454,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .first-user
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .mobile-user-journey-image {
   display: block;
-  width: 100%;
+  width: 90%;
   margin-bottom: 4em;
 }
 
@@ -464,7 +464,7 @@ body .Thinking-about-the-users .user-journey .user-journey-substrate .second-use
 
 body .Thinking-about-the-users .user-journey .user-journey-substrate .second-mobile-user-journey-image {
   display: block;
-  width: 100%;
+  width: 90%;
   margin-bottom: 4em;
 }
 
@@ -1216,7 +1216,7 @@ body .last-section-project .other-projects .project-container .call-to-action-pr
   body .Thinking-about-the-users .user-journey .user-journey-substrate .second-user-journey-image {
     display: block;
     width: 100%;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
   }
   body .Thinking-about-the-users .user-journey .user-journey-substrate .second-mobile-user-journey-image {
     display: none;
