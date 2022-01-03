@@ -279,6 +279,15 @@ body .first-section {
   padding: 0 2em;
 }
 
+body .first-section .call-to-action-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body .first-section .call-to-action-home-one {
   display: inline-block;
   width: 140px;
@@ -311,6 +320,7 @@ body .first-section .call-to-action-home-two {
   border-radius: 35px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  margin-bottom: 1em;
   cursor: pointer;
 }
 

@@ -236,6 +236,12 @@ body {
         margin: 0 auto 4em auto;
         padding: 0 2em;
 
+        .call-to-action-first {
+            display: flex; 
+            justify-content: space-between;
+        }
+            
+        
         .call-to-action-home-one {
             display: inline-block;
             width: 140px;
@@ -266,6 +272,7 @@ body {
             background-color: transparent;
             border-radius: 35px;
             transition: 0.3s ease-in-out;
+            margin-bottom: 1em;
             cursor: pointer;
         }
 
